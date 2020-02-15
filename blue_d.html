@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>リアルグレード_ガンダムアストレイ_ブルーフレーム_D</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+</head>
+<header>
+  <div class="header-container">
+    <a href="#">
+      <h1 class="header-logo">シェアードオフィス NEST 505</h1>
+    </a>
+    <a href="#" id="slidemenu-btn">
+      <div class="header-navbtn"></div>
+    </a>
+  </div>
+</header>
+<body>
+<nav>
+  <div class="nav-container" id="js-slidemenu">
+    <ul class="globalnav">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="BBsenshi.html">Gallery</a></li>
+      <li><a href="https://www.youtube.com/channel/UCbiiLExB5t_yiC7aFY5MecA?view_as=subscriber">Youtube</a></li>
+      <li><a href="https://twitter.com/1lETGKpLc9hlsrP">Twitter</a></li>
+      <li><a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfG-SxI18JBLT-ZEUWaSYXsX6kn0SQTsnsywtURGb9I-fqfuw/viewform?usp=pp_url">Production
+          agency</a></li>
+    </ul>
+  </div>
+</nav>
+<ul class="nav">
+  <li class="nav-item"><a href="BBsenshi.html" class="nav-link">BBsenshi</a></li>
+  <li class="nav-item"><a href="rg.html" class="nav-link">RG1/144</a></li>
+  <li class="nav-item"><a href="mg.html" class="nav-link">MG1/100</a></li>
+  <li class="nav-item"><a href="hg.html" class="nav-link">HG1/144</a></li>
+  <li class="nav-item"><a href="others.html" class="nav-link">others</a></li>
+</ul>
+
+<!--BB戦士ギャラリー-->
+<!--スライドー-->
+<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src = "images/blue_frame _d.jpg" alt = "1番目のスライド"></div>
+    <div class="swiper-slide"><img src = "images/blue_frame _d2.jpg" alt = "2番目のスライド"></div>
+    <div class="swiper-slide"><img src = "images/blue_frame _d3.jpg" alt = "3番目のスライド"></div>
+    <div class="swiper-slide"><img src = "images/blue_frame _d4.jpg" alt = "4番目のスライド"></div>
+    <div class="swiper-slide"><img src = "images/blue_frame _d5.jpg" alt = "5番目のスライド"></div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="script/jquery-3.1.1.min.js"></script>
+<script src="script/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script>
+  var mySwiper = new Swiper('.swiper-container', {
+    effect: "flip",
+    loop: true,
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+  })
+</script>
+</body>
+
+</html>
